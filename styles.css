@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+  place-content: center;
+  position: relative;
+}
+
+table,
+tr,
+td {
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.changeLog__main {
+  display: flex;
+  align-items: center;
+}
+
+.changeLog__line {
+  width: 2px;
+  height: 75px;
+  background-color: black;
+}
+
+.changeLog__circle {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
